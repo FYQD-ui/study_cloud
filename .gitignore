@@ -1,0 +1,85 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Node / frontend / Expo
+node_modules/
+.expo/
+dist/
+build/
+web-build/
+coverage/
+.cache/
+*.tsbuildinfo
+expo-env.d.ts
+.metro-health-check*
+
+# Expo generated native folders
+android/
+ios/
+
+# Native build artifacts
+.gradle/
+.kotlin/
+.cxx/
+**/app/build/
+**/build/
+*.apk
+*.aab
+*.ipa
+
+# Keys / certificates
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# Python backend, if later added
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Java / Kotlin backend, if later added
+target/
+out/
+*.class
+
+# Database / local runtime files
+*.sqlite
+*.sqlite3
+*.db
+tmp/
+temp/
+
+# Local Git metadata backup from the former nested repository
+study_app/.git-backup-before-root-repo/
+
+# Expo template leftovers
+app-example
+*.orig.*
